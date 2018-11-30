@@ -1,0 +1,9 @@
+{
+  "name": "rust-js",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "hot": "systemfd --no-pid -s http::3000 -- cargo watch -x run"
+  }
+}
